@@ -1,0 +1,16 @@
+Output folder: data_background_4/output [16/06 09:33:54]
+Tensorboard not available: not logging progress [16/06 09:33:54]
+Reading camera 185/185 [16/06 09:33:55]
+Converting point3d.bin to .ply, will happen only the first time you open the scene. [16/06 09:33:55]
+Loading Training Cameras [16/06 09:33:55]
+Loading Test Cameras [16/06 09:34:00]
+Number of points at initialisation :  128395 [16/06 09:34:00]
+Training progress: 100%|█████████████| 30000/30000 [19:30<00:00, 25.64it/s, Loss=0.03613, distort=0.00000, normal=0.00603, Points=1947961]
+
+[ITER 7000] Evaluating train: L1 0.0258541576564312 PSNR 27.968564224243167 [16/06 09:38:12]
+
+[ITER 7000] Saving Gaussians [16/06 09:38:12]
+
+[ITER 30000] Evaluating train: L1 0.019838992878794672 PSNR 30.348162078857424 [16/06 09:53:30]
+
+[ITER 30000] Saving Gaussians [16/06 09:53:30]

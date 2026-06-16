@@ -1,0 +1,46 @@
+{
+  "os": "Linux-5.15.0-25-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.10.6",
+  "startedAt": "2026-06-15T14:27:05.370111Z",
+  "args": [
+    "-s",
+    "data_A",
+    "-m",
+    "data_A/output"
+  ],
+  "program": "/root/2d-gaussian-splatting/train.py",
+  "codePath": "train.py",
+  "codePathLocal": "train.py",
+  "git": {
+    "remote": "https://github.com/hbb1/2d-gaussian-splatting",
+    "commit": "335ad612f2e783a4e57b9cbc4d1e167bd599fc98"
+  },
+  "email": "23307130007@m.fudan.edu.cn",
+  "root": "/root/2d-gaussian-splatting",
+  "host": "autodl-container-ecf44d8bd1-aaa92c67",
+  "executable": "/root/miniconda3/envs/2dgs/bin/python",
+  "cpu_count": 104,
+  "cpu_count_logical": 208,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "32212254720",
+      "used": "27273379840"
+    }
+  },
+  "memory": {
+    "total": "1081807097856"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4090",
+      "memoryTotal": "25757220864",
+      "cudaCores": 16384,
+      "architecture": "Ada",
+      "uuid": "GPU-a465bb79-6ab0-191e-3b34-5a0edb3a2d2d"
+    }
+  ],
+  "cudaVersion": "12.8",
+  "writerId": "uubpdoeavz3t4rnz1rxh69ipp0osjicr"
+}

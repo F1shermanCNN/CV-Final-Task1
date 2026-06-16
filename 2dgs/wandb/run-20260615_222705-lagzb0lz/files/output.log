@@ -1,0 +1,17 @@
+Output folder: data_A/output [15/06 22:27:07]
+Tensorboard not available: not logging progress [15/06 22:27:07]
+Reading camera 87/87 [15/06 22:27:07]
+Loading Training Cameras [15/06 22:27:07]
+[ INFO ] Encountered quite large input images (>1.6K pixels width), rescaling to 1.6K.
+ If this is not desired, please explicitly specify '--resolution/-r' as 1 [15/06 22:27:07]
+Loading Test Cameras [15/06 22:27:42]
+Number of points at initialisation :  5829 [15/06 22:27:42]
+Training progress: 100%|██████████████| 30000/30000 [52:11<00:00,  9.58it/s, Loss=0.04214, distort=0.00000, normal=0.00477, Points=528167]
+
+[ITER 7000] Evaluating train: L1 0.020220903120934965 PSNR 30.041208267211914 [15/06 22:37:59]
+
+[ITER 7000] Saving Gaussians [15/06 22:37:59]
+
+[ITER 30000] Evaluating train: L1 0.01618859264999628 PSNR 31.883081436157227 [15/06 23:19:54]
+
+[ITER 30000] Saving Gaussians [15/06 23:19:54]
