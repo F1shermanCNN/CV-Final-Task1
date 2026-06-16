@@ -1,0 +1,67 @@
+_wandb:
+    value:
+        cli_version: 0.27.2
+        e:
+            uubpdoeavz3t4rnz1rxh69ipp0osjicr:
+                args:
+                    - -s
+                    - data_A
+                    - -m
+                    - data_A/output
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 104
+                cpu_count_logical: 208
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "32212254720"
+                        used: "27273379840"
+                email: 23307130007@m.fudan.edu.cn
+                executable: /root/miniconda3/envs/2dgs/bin/python
+                git:
+                    commit: 335ad612f2e783a4e57b9cbc4d1e167bd599fc98
+                    remote: https://github.com/hbb1/2d-gaussian-splatting
+                gpu: NVIDIA GeForce RTX 4090
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 16384
+                      memoryTotal: "25757220864"
+                      name: NVIDIA GeForce RTX 4090
+                      uuid: GPU-a465bb79-6ab0-191e-3b34-5a0edb3a2d2d
+                host: autodl-container-ecf44d8bd1-aaa92c67
+                memory:
+                    total: "1081807097856"
+                os: Linux-5.15.0-25-generic-x86_64-with-glibc2.31
+                program: /root/2d-gaussian-splatting/train.py
+                python: CPython 3.10.6
+                root: /root/2d-gaussian-splatting
+                startedAt: "2026-06-15T14:27:05.370111Z"
+                writerId: uubpdoeavz3t4rnz1rxh69ipp0osjicr
+        m: []
+        python_version: 3.10.6
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.10.6
+            "5": 0.27.2
+            "12": 0.27.2
+            "13": linux-x86_64
+iterations:
+    value: 30000
+lambda_dist:
+    value: 0
+lambda_dssim:
+    value: 0.2
+lambda_normal:
+    value: 0.05
+sh_degree:
+    value: 3
